@@ -1,21 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
+    <div class="caixa">
 
-    <img src="./img/game.png" alt="game">
+        <img src="./img/game.png" alt="game">
 
-    <h1>O que você encontra aqui</h1>
+        <h1>O que você encontra aqui</h1>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique unde modi nemo asperiores error sapiente ea ex assumenda. Magni accusamus molestiae ipsum sed perspiciatis quia, esse delectus corrupti suscipit vitae.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique unde modi nemo asperiores error sapiente
+            ea ex
+            assumenda. Magni accusamus molestiae ipsum sed perspiciatis quia, esse delectus corrupti suscipit vitae.</p>
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa earum excepturi ratione, harum fuga laboriosam, atque blanditiis perspiciatis distinctio hic repellat architecto possimus temporibus saepe exercitationem corporis aut enim nemo.</p>
-    
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa earum excepturi ratione, harum fuga
+            laboriosam,
+            atque blanditiis perspiciatis distinctio hic repellat architecto possimus temporibus saepe exercitationem
+            corporis aut enim nemo.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ducimus impedit quis tenetur suscipit quae, temporibus, provident commodi quisquam earum ut, qui ex neque perspiciatis tempore? Optio fugiat modi exercitationem.</p>
+
+        <button onclick="abrir()" class="contato">Entrar em contato</button>
+
+    </div>
+
+    <form action="https://formsubmit.co/cesarsantossouza99@gmail.com" method="POST">
+        <input type="text" name="name" required placeholder="Nome">
+        <input type="email" name="email" required placeholder="Email">
+        <textarea placeholder="Sua dúvida aqui"></textarea>
+        <button type="submit">Enviar</button>
+        <button class="voltar" onclick="fechar()" type="button">Voltar</button>
+    </form>
+
+    <script src="./script.js"></script>
+
 </body>
+
 </html>
