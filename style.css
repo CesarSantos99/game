@@ -2,12 +2,95 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
     background: #01295e;
+    background-size: cover;
+}
+.caixa {
+    transition: opacity 1s;
+}
+
+img {
+    width: 100%;
 }
 
 h1 {
     color: #FFF;
+    text-align: center;
 }
+
+p {
+    font-size: 24px;
+    margin: 30px;
+    color: #FFF;
+}
+
+.contato {
+    width: 100%;
+    font-size: 20px;
+    height: 60px;
+}
+
+form {
+    background: #FFF;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+input {
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    height: 50px;
+    width: 352px;
+    margin-bottom: 20px;
+    font-size: 14px;
+
+}
+
+textarea {
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    height: 100px;
+    width: 352px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+button {
+    width: 174px;
+    border: none;
+    padding: 10px;
+    background: #40BB15;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #FFF;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.voltar {
+    background: gray;
+}
+
+
+
+
+
+
+
